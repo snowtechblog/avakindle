@@ -14,6 +14,8 @@ For more information, visit: [snowtechblog.wordpress.com](http://snowtechblog.wo
 
 The code is devided into three sections. The first block are function definitions. The second block are variables, initialize the WAN module and logfile, as well as defines that Kindle downloads the image on startup. The third block is the infinite while loop. OK, lets go through the third block to understand the logic ,-)
 
+**Note:** You must set your username `$MAIL_USER`, passwort `$MAIL_PW`, email address `$MAIL_ADD` and recipient mail address `$MAIL_RECIPIENT` to get the `send_log` working.
+
 #### Startup:
 
 Open a terminal on Kindle (you should know how to do this, otherwise (LINK MOBILEREAD) is your friend...). Start the code with redirecting all possible output, cause this will write over the fullscreen image:
